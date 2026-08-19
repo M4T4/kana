@@ -1,0 +1,62 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bubbles (0.1.1)
+      bubbletea
+      harmonica
+      lipgloss
+    bubbletea (0.1.4)
+      lipgloss (~> 0.1)
+    bubbletea (0.1.4-aarch64-linux-gnu)
+      lipgloss (~> 0.1)
+    bubbletea (0.1.4-aarch64-linux-musl)
+      lipgloss (~> 0.1)
+    bubbletea (0.1.4-arm-linux-gnu)
+      lipgloss (~> 0.1)
+    bubbletea (0.1.4-arm-linux-musl)
+      lipgloss (~> 0.1)
+    bubbletea (0.1.4-arm64-darwin)
+      lipgloss (~> 0.1)
+    bubbletea (0.1.4-x86-linux-gnu)
+      lipgloss (~> 0.1)
+    bubbletea (0.1.4-x86-linux-musl)
+      lipgloss (~> 0.1)
+    bubbletea (0.1.4-x86_64-darwin)
+      lipgloss (~> 0.1)
+    bubbletea (0.1.4-x86_64-linux-gnu)
+      lipgloss (~> 0.1)
+    bubbletea (0.1.4-x86_64-linux-musl)
+      lipgloss (~> 0.1)
+    harmonica (0.1.1)
+    lipgloss (0.2.2)
+    lipgloss (0.2.2-aarch64-linux-gnu)
+    lipgloss (0.2.2-aarch64-linux-musl)
+    lipgloss (0.2.2-arm-linux-gnu)
+    lipgloss (0.2.2-arm-linux-musl)
+    lipgloss (0.2.2-arm64-darwin)
+    lipgloss (0.2.2-x86-linux-gnu)
+    lipgloss (0.2.2-x86-linux-musl)
+    lipgloss (0.2.2-x86_64-darwin)
+    lipgloss (0.2.2-x86_64-linux-gnu)
+    lipgloss (0.2.2-x86_64-linux-musl)
+
+PLATFORMS
+  aarch64-linux-gnu
+  aarch64-linux-musl
+  arm-linux-gnu
+  arm-linux-musl
+  arm64-darwin
+  ruby
+  x86-linux-gnu
+  x86-linux-musl
+  x86_64-darwin
+  x86_64-linux-gnu
+  x86_64-linux-musl
+
+DEPENDENCIES
+  bubbles
+  bubbletea
+  lipgloss
+
+BUNDLED WITH
+   2.7.1

@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "bubbletea"
+
+require_relative "../lib/app"
+
+Bubbletea.run(
+  App.new,
+  alt_screen: true
+)
