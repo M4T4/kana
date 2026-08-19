@@ -78,7 +78,7 @@ class App
 
     header = [
       @title_style.render("NAMI"),
-      @subtitle_style.render("Japanese Kanji Trainer")
+      @subtitle_style.render("Japanese Writting System Trainer")
     ].join("\n")
 
     kanji_section = [
