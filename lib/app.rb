@@ -12,15 +12,24 @@ class App
   WIDTH = 44
 
   def initialize
-    @index = 0
-    @revealed = false
-    @kanjis = load_kanjis
+    @width = 0
+    @height = 0
+
+    # @index = 0
+    # @revealed = false
+    # @kanjis = load_kanjis
 
     @title_style = Lipgloss::Style.new
       .bold(true)
       .align(:left)
 
     @subtitle_style = Lipgloss::Style.new
+      .faint(true)
+
+    @question = Lipgloss::Style.new
+      .bold(true)
+
+    @option = Lipgloss::Style.new
       .faint(true)
 
     @kanji_style = Lipgloss::Style.new
@@ -51,6 +60,11 @@ class App
 
   def update(message)
     case message
+    when Bubbletea::WindowSizeMessage
+      @width = message.width
+      @height = message.height
+
+      [self, nil]
     when Bubbletea::KeyMessage
       if message.space?
         @revealed = true
@@ -58,6 +72,16 @@ class App
       end
 
       case message.to_s
+      when "1"
+        start_kana
+        [self, nil]
+      when "2"
+        start_kanji
+        [self, nil]
+      when "1"
+        start_vocabulary
+        [self, nil]
+
       when "n", "right"
         next_kanji
         [self, nil]
@@ -74,6 +98,42 @@ class App
   end
 
   def view
+    header = [
+      @title_style.render("NAMI"),
+      @subtitle_style.render("Japanese Writting System Trainer")
+    ].join("\n")
+
+    starting_options = [
+      @question.render("Select an option"),
+      @option.render("1. Kana あ"),
+      @option.render("2. Kanji 日"),
+      @option.render("3. Vocabulary 語彙"),
+    ]
+
+    help = @help_style.render(
+      "[i] Info   [h] help   [q] Quit"
+    )
+
+    content = [
+      header, 
+      "",
+      starting_options,
+      "",
+      help
+    ].join("\n")
+
+    box = @box_style.render(content)
+
+    Lipgloss.place(
+      @width,
+      @height,
+      :center,
+      :center,
+      box
+    )
+  end
+
+  def kanji_view
     kanji = @kanjis[@index]
 
     header = [
@@ -104,6 +164,7 @@ class App
         "???"
       end
 
+    
     info = [
       @label_style.render("Meaning"),
       meaning,
@@ -114,22 +175,6 @@ class App
       @label_style.render("Kunyomi"),
       kunyomi
     ].join("\n")
-
-    help = @help_style.render(
-      "[space] Reveal   [n] Next   [q] Quit"
-    )
-
-    content = [
-      header,
-      "",
-      kanji_section,
-      "",
-      info,
-      "",
-      help
-    ].join("\n")
-
-    @box_style.render(content)
   end
 
   private
