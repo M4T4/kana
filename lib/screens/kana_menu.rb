@@ -1,5 +1,4 @@
-require "lipgloss"
-require_relative "../styles/defaults"
+require_relative "base"
 
 module Screens
   class KanaMenu < Base 

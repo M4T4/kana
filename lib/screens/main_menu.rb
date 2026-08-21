@@ -1,4 +1,3 @@
-require "lipgloss"
 require_relative "base"
 
 module Screens
