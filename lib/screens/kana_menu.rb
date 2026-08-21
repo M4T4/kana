@@ -37,6 +37,7 @@ module Screens
         "",
         options,
         "",
+        help_options,
       ].join("\n")
 
       center_box(content)

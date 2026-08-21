@@ -40,6 +40,7 @@ module Screens
         "",
         starting_options,
         "",
+        help_options,
       ].join("\n")
 
       center_box(content)

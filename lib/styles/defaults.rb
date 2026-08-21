@@ -24,7 +24,7 @@ module Styles
       @box_style = Lipgloss::Style.new
         .border(:rounded)
         .padding(1, 2)
-        .width(40)
+        .width(50)
 
       @title_style = Lipgloss::Style.new
         .bold(true)

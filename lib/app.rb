@@ -9,14 +9,14 @@ require_relative "kanji"
 # Set of screens for menu navigation.
 require_relative "screens/main_menu"
 require_relative "screens/kana_menu"
-require_relative "screens/hiragana"
-require_relative "screens/katakana"
+require_relative "screens/Kana/hiragana"
+require_relative "screens/Kana/katakana"
 require_relative "screens/kanji"
 
 class App
   include Bubbletea::Model
 
-  WIDTH = 44
+  WIDTH = 60
 
   def initialize
     @width = 0
@@ -26,8 +26,8 @@ class App
     @screens = {
       main_menu: Screens::MainMenu.new,
       kana_menu: Screens::KanaMenu.new,
-      hiragana: Screens::Hiragana.new,
-      katakana: Screens::Katakana.new,
+      hiragana: Screens::Kana::Hiragana.new,
+      katakana: Screens::Kana::Katakana.new,
     }
   end
 

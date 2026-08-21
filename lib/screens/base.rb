@@ -22,9 +22,6 @@ module Screens
     end
 
     def center_box(content)
-      content << "\n"
-      content << help_options
-
       box = @style.box_style.render(content)
 
       Lipgloss.place(
