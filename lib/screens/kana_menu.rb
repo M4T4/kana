@@ -1,47 +1,46 @@
 require "lipgloss"
+require_relative "../styles/defaults"
 
 module Screens
-  class KanaMenu 
-    def initialize
-      @box = Lipgloss::Style.new
-        .border(:rounded)
-        .padding(1, 2)
-        .width(40)
+  class KanaMenu < Base 
+
+    def update(message)
+      case message.to_s
+      when "1"
+        :Hiragana
+
+      when "2"
+        :Katakana
+
+      when "q", "ctrl+c"
+        :quit
+
+      else
+        nil
+      end
     end
 
     def render
       header = [
-        @title_style.render("KANA"),
-        @subtitle_style.render("Learn the Japanese syllabaries")
+        @style.title_style.render("NAMI"),
+        @style.subtitle_style.render("Learn the Japanese syllabaries")
       ].join("\n")
 
       options = [
-        @question.render("Select a writing system"),
-        @option.render("1. Hiragana ひらがな"),
-        @option.render("2. Katakana カタカナ")
+        @style.question.render("Select a writing system"),
+        @style.option.render("1. Hiragana ひらがな"),
+        @style.option.render("2. Katakana カタカナ")
       ].join("\n")
 
-      help = @help_style.render(
-        "[esc] Back   [q] Quit"
-      )
 
       content = [
         header, 
         "",
         options,
         "",
-        help
       ].join("\n")
 
-      box = @box_style.render(content)
-
-      Lipgloss.place(
-        @width,
-        @height,
-        :center,
-        :center,
-        box
-      )
+      center_box(content)
     end
   end
 end

@@ -72,6 +72,11 @@ class App
 
     when Symbol
       @screen = result
+
+      current_screen.resize(
+        width: @width,
+        height: @height
+      )
       [self, nil]
 
     else
