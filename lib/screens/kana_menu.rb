@@ -6,10 +6,10 @@ module Screens
     def update(message)
       case message.to_s
       when "1"
-        :Hiragana
+        :hiragana
 
       when "2"
-        :Katakana
+        :katakana
 
       when "q", "ctrl+c"
         :quit

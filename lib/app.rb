@@ -26,6 +26,8 @@ class App
     @screens = {
       main_menu: Screens::MainMenu.new,
       kana_menu: Screens::KanaMenu.new,
+      hiragana: Screens::Hiragana.new,
+      katakana: Screens::Katakana.new,
     }
   end
 
