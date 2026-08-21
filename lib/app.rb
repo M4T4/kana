@@ -11,6 +11,7 @@ require_relative "screens/main_menu"
 require_relative "screens/kana_menu"
 require_relative "screens/Kana/hiragana"
 require_relative "screens/Kana/katakana"
+require_relative "screens/Kana/study"
 require_relative "screens/kanji"
 
 class App
@@ -28,6 +29,7 @@ class App
       kana_menu: Screens::KanaMenu.new,
       hiragana: Screens::Kana::Hiragana.new,
       katakana: Screens::Kana::Katakana.new,
+      kana_study: Screens::Kana::Study.new("ds"),
     }
   end
 

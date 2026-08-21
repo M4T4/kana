@@ -32,7 +32,7 @@ module Screens
           toggle_current_group
 
         when "enter"
-          return :hiragana_study unless @selected_groups.empty?
+          return :kana_study unless @selected_groups.empty?
 
         when "q", "ctrl+c"
           :quit
