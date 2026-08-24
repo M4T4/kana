@@ -5,33 +5,17 @@ module Screens
   module Kana
     class Study < Screens::Base
 
-      def initialize(selected_groups)
+      def initialize
         super
-
         @selected_groups = Set.new
-
-        @groups = [
-          "Gojūon ひらがな",
-          "Yōon きゃきゅきょ",
-          "Sokuon っ",
-          "Tokushūon ん",
-          "Dakuten / Handakuten がざだばぱ"
-        ]
       end
 
       def update(message)
         case message.to_s
-        when "up", "k"
-          @cursor = (@cursor - 1) % @groups.size
 
-        when "down", "j"
-          @cursor = (@cursor + 1) % @groups.size
-
-        when "space"
-          toggle_current_group
 
         when "enter"
-          return :kana_study unless @selected_groups.empty?
+          next_character
 
         when "q", "ctrl+c"
           :quit
@@ -42,23 +26,20 @@ module Screens
       end
 
       def render
-        header = [
-          @style.title_style.render("NAMI"),
-          @style.subtitle_style.render("Learn the Japanese syllabaries")
-        ].join("\n")
-
-
         content = [
-          header,
+          "HIRAGANA",
           "",
-          @style.question.render("heheheS"),
+          "Selected groups:",
+          @selected_groups.join(", "),
           "",
-          @style.help_style.render(
-            "[↑↓] Move   [space] Select   [enter] Start   [esc] Back"
-          )
+          "[esc] Back"
         ].join("\n")
 
         center_box(content)
+      end
+
+      def enter(params= {})
+        @selected_groups = params[:selected_groups] || []
       end
 
     end

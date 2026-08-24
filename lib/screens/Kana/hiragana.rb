@@ -32,7 +32,14 @@ module Screens
           toggle_current_group
 
         when "enter"
-          return :kana_study unless @selected_groups.empty?
+          return if @selected_groups.empty?
+
+          {
+            screen: :kana_study,
+            params: {
+              selected_groups: @selected_groups
+            }
+          }
 
         when "q", "ctrl+c"
           :quit

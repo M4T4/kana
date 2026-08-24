@@ -29,7 +29,7 @@ class App
       kana_menu: Screens::KanaMenu.new,
       hiragana: Screens::Kana::Hiragana.new,
       katakana: Screens::Kana::Katakana.new,
-      kana_study: Screens::Kana::Study.new("ds"),
+      kana_study: Screens::Kana::Study.new,
     }
   end
 
@@ -83,8 +83,28 @@ class App
       )
       [self, nil]
 
+    when Hash
+      # debug("navigating #{@screen} -> #{result[:screen]}")
+      # debug("params=#{result[:params].inspect}")
+      
+      @screen = result[:screen]
+
+      current_screen.enter(result[:params])
+
+      current_screen.resize(
+        width: @width,
+        height: @height
+      )
+      [self, nil]
+
     else
       [self, nil]
+    end
+  end
+
+  def debug(message)
+    File.open("/tmp/nami.log", "a") do |file|
+      file.puts "[#{Time.now}] #{message}"
     end
   end
 

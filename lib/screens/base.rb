@@ -4,7 +4,7 @@ require_relative "../styles/defaults"
 module Screens
   class Base 
 
-    def initialize()
+    def initialize
       @width = 0
       @height = 0
       @style = Styles::Defaults.new()
@@ -31,6 +31,12 @@ module Screens
         :center,
         box
       )
+    end
+
+    def debug(message)
+      File.open("/tmp/nami.log", "a") do |file|
+        file.puts "[#{Time.now}] #{message}"
+      end
     end
 
   end
