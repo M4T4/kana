@@ -2,6 +2,7 @@ require_relative "../base"
 require_relative "../../kana"
 require "set"
 require "yaml"
+require "json"
 
 
 module Screens
@@ -13,6 +14,7 @@ module Screens
         @selected_groups = Set.new
         @syllabary = nil
         @index = 0
+        @results = []
 
         @input = create_input("Enter:", " ")
         @submitted = false
@@ -34,7 +36,11 @@ module Screens
       def update(message)
         case message.to_s
         when "enter"
-          check_answer
+          if @index == @kanas.size - 1
+            complete_test
+          else
+            check_answer
+          end
 
           return [nil, nil]
 
@@ -98,14 +104,51 @@ module Screens
             group: "ka",
             syllabary: @syllabary,
             character: data[@syllabary],
-            romaji: data["roumaji"]
+            romaji: data["romaji"]
           )
         end
       end
 
       def check_answer
-        @index = @index + 1
-        debug("input=#{@input}")
+        @index += 1
+        debug("input=#{@input.value}")
+        debug("kana=#{@kana.romaji}")
+
+        if @input.value == @kana.romaji
+          result_item = {
+            romaji: @kana.romaji,
+            input: @input.value,
+            correct: true
+          }
+        else
+          result_item = {
+            romaji: @kana.romaji,
+            input: @input.value,
+            correct: false
+          }
+
+        end
+
+        @input.value = ""
+        @results << result_item
+      end
+
+      def complete_test
+        file_path = 'results/study.json'
+
+        if File.exist?(file_path) && !File.read(file_path).empty?
+          data = JSON.parse(File.read(file_path))
+        else
+          data = []
+        end
+
+        # 2. Append the new item
+        data << @results
+
+        # 3. Save it back
+        File.write(file_path, JSON.pretty_generate(data))
+
+        
       end
 
       def create_input(_name, placeholder, password: false)
