@@ -50,7 +50,8 @@ class App
 
       [self, nil]
 
-    when Bubbletea::KeyMessage
+    else
+      # Recordar que current_screen regresa un array
       action, command = current_screen.update(message)
 
       case action
@@ -70,7 +71,7 @@ class App
       when Hash
         @screen = action[:screen]
 
-        current_screen.enter(
+        enter_command = current_screen.enter(
           action[:params] || {}
         )
 
@@ -79,14 +80,11 @@ class App
           height: @height
         )
 
-        [self, command]
+        [self, enter_command || command]
 
       else
         [self, command]
       end
-
-    else
-      [self, nil]
     end
   end
 
