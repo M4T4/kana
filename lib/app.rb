@@ -12,6 +12,7 @@ require_relative "screens/kana_menu"
 require_relative "screens/Kana/hiragana"
 require_relative "screens/Kana/katakana"
 require_relative "screens/Kana/study"
+require_relative "screens/Kana/result"
 require_relative "screens/kanji"
 
 class App
@@ -30,6 +31,7 @@ class App
       hiragana: Screens::Kana::Hiragana.new,
       katakana: Screens::Kana::Katakana.new,
       kana_study: Screens::Kana::Study.new,
+      kana_results: Screens::Kana::Result.new,
     }
   end
 
@@ -79,6 +81,9 @@ class App
           width: @width,
           height: @height
         )
+
+        debug("action: #{@screen}")
+        debug("command: #{enter_command}")
 
         [self, enter_command || command]
 

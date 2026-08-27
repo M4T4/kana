@@ -37,12 +37,24 @@ module Screens
         case message.to_s
         when "enter"
           if @index == @kanas.size - 1
+            check_answer
             complete_test
+
+            return [
+              {
+                screen: :kana_results,
+                params: {
+                  results: @results
+                }
+              },
+              nil
+            ]
           else
             check_answer
+
+            return [nil, nil]
           end
 
-          return [nil, nil]
 
         when "esc"
           return [:kana_menu, nil]
@@ -156,8 +168,6 @@ module Screens
         data << @results
 
         File.write(file_path, JSON.pretty_generate(data))
-
-        
       end
 
       def create_input(_name, placeholder, password: false)
