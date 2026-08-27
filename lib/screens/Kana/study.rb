@@ -88,6 +88,15 @@ module Screens
 
         @index = 0
         @input.focus
+
+        @results << {
+          study_data: {
+            date: Time.now,
+            syllabary: @syllabary,
+            groups: @selected_groups,
+            correct_answers: 0,
+          }
+        }
       end
 
       private
@@ -116,14 +125,16 @@ module Screens
 
         if @input.value == @kana.romaji
           result_item = {
-            romaji: @kana.romaji,
-            input: @input.value,
+            character: @kana.character,
+            correct_answer: @kana.romaji,
+            answer: @input.value,
             correct: true
           }
         else
           result_item = {
-            romaji: @kana.romaji,
-            input: @input.value,
+            character: @kana.character,
+            correct_answer: @kana.romaji,
+            answer: @input.value,
             correct: false
           }
 
@@ -142,10 +153,8 @@ module Screens
           data = []
         end
 
-        # 2. Append the new item
         data << @results
 
-        # 3. Save it back
         File.write(file_path, JSON.pretty_generate(data))
 
         
