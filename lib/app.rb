@@ -51,9 +51,40 @@ class App
       [self, nil]
 
     when Bubbletea::KeyMessage
-      result = current_screen.update(message)
+      action, command = current_screen.update(message)
 
-      handle_screen_result(result)
+      case action
+      when :quit
+        [self, Bubbletea.quit]
+
+      when Symbol
+        @screen = action
+
+        current_screen.resize(
+          width: @width,
+          height: @height
+        )
+
+        [self, command]
+
+      when Hash
+        @screen = action[:screen]
+
+        current_screen.enter(
+          action[:params] || {}
+        )
+
+        current_screen.resize(
+          width: @width,
+          height: @height
+        )
+
+        [self, command]
+
+      else
+        [self, command]
+      end
+
     else
       [self, nil]
     end
@@ -67,39 +98,6 @@ class App
   
   def current_screen
     @screens[@screen]
-  end
-
-  def handle_screen_result(result)
-    case result
-    when :quit
-      [self, Bubbletea.quit]
-
-    when Symbol
-      @screen = result
-
-      current_screen.resize(
-        width: @width,
-        height: @height
-      )
-      [self, nil]
-
-    when Hash
-      # debug("navigating #{@screen} -> #{result[:screen]}")
-      # debug("params=#{result[:params].inspect}")
-      
-      @screen = result[:screen]
-
-      current_screen.enter(result[:params])
-
-      current_screen.resize(
-        width: @width,
-        height: @height
-      )
-      [self, nil]
-
-    else
-      [self, nil]
-    end
   end
 
   def debug(message)

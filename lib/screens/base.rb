@@ -1,8 +1,19 @@
+require "bundler/setup"
+require "bubbletea"
 require "lipgloss"
+require "bubbles"
 require_relative "../styles/defaults"
 
 module Screens
   class Base 
+    GROUP_LABELS = {
+        "gojuon" => "Gojūon",
+        "dakuten" => "Dakuten",
+        "yoon" => "Yōon",
+        "sokuon" => "Sokuon",
+        "tokushuon" => "Tokushūon",
+        "handakuten" => "Handakuten"
+      }
 
     def initialize
       @width = 0

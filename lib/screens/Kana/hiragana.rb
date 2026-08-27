@@ -4,7 +4,6 @@ require "set"
 module Screens
   module Kana
     class Hiragana < Screens::Base
-
       def initialize
         super
 
@@ -12,11 +11,12 @@ module Screens
         @cursor = 0
 
         @groups = [
-          "Gojūon ひらがな",
-          "Yōon きゃきゅきょ",
-          "Sokuon っ",
-          "Tokushūon ん",
-          "Dakuten / Handakuten がざだばぱ"
+          "gojuon",
+          "dakuten",
+          "yoon",
+          "sokuon",
+          "tokushuon",
+          "handakuten"
         ]
       end
 
@@ -25,27 +25,40 @@ module Screens
         when "up", "k"
           @cursor = (@cursor - 1) % @groups.size
 
+          [nil, nil]
+
         when "down", "j"
           @cursor = (@cursor + 1) % @groups.size
+
+          [nil, nil]
 
         when "space"
           toggle_current_group
 
-        when "enter"
-          return if @selected_groups.empty?
+          [nil, nil]
 
-          {
-            screen: :kana_study,
-            params: {
-              selected_groups: @selected_groups
-            }
-          }
+        when "enter"
+          return [nil, nil] if @selected_groups.empty?
+
+          [
+            {
+              screen: :kana_study,
+              params: {
+                selected_groups: @selected_groups.dup,
+                syllabary: "hiragana"
+              }
+            },
+            nil
+          ]
+
+        when "esc"
+          [:kana_menu, nil]
 
         when "q", "ctrl+c"
-          :quit
+          [:quit, nil]
 
         else
-          nil
+          [nil, nil]
         end
       end
 
@@ -63,7 +76,7 @@ module Screens
           pointer = cursor ? ">" : " "
 
           @style.option.render(
-            "#{pointer} #{checkbox} #{group}"
+            "#{pointer} #{checkbox} #{GROUP_LABELS[group]}"
           )
         end.join("\n")
 

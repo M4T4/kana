@@ -1,10 +1,35 @@
 class Kana
-  attr_reader :character, :meaning, :onyomi, :kunyomi
+  attr_reader :family,
+              :group,
+              :syllabary,
+              :character,
+              :romaji
 
-  def initialize(character:, meaning:, onyomi:, kunyomi:)
+  # A Kana object could be:
+  # 
+  # Example A: 
+  # Kana(
+  # family: "Gojūon",
+  # group: "ka",
+  # syllabary: "hiragana",
+  # character: "か",
+  # romaji: "ka"
+  # )
+  # 
+  # Example B: 
+  # Kana(
+  # family: "Gojūon",
+  # group: "ka",
+  # syllabary: "hiragana",
+  # character: "け",
+  # romaji: "ke"
+  # )
+
+  def initialize(family:, group:, syllabary:, character:, romaji:)
+    @family = family
+    @group = group
+    @syllabary = syllabary
     @character = character
-    @meaning = meaning
-    @onyomi = onyomi
-    @kunyomi = kunyomi
+    @romaji = romaji
   end
 end

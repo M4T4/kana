@@ -6,16 +6,16 @@ module Screens
     def update(message)
       case message.to_s
       when "1"
-        :hiragana
+        [:hiragana, nil]
 
       when "2"
-        :katakana
+        [:katakana, nil]
 
       when "q", "ctrl+c"
-        :quit
+        [:quit, nil]
 
       else
-        nil
+        [nil, nil]
       end
     end
 
