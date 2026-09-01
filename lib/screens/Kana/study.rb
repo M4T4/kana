@@ -14,7 +14,6 @@ module Screens
         @selected_groups = Set.new
         @syllabary = nil
         @index = 0
-        @results = []
 
         @input = create_input("Enter:", " ")
         @submitted = false        
@@ -90,14 +89,16 @@ module Screens
         @index = 0
         @input.focus
 
-        @results << {
+        @results = {
           study_data: {
             started_at: Time.now,
             ended_at: 0,
             duration: 0,
             syllabary: @syllabary,
             groups: @selected_groups,
-          }
+          },
+
+          answers: [],
         }
 
         start_kana_timer
@@ -143,7 +144,7 @@ module Screens
         response_time = ended_at - @kana_time
 
 
-        @results << result_item = {
+        @results[:answers] << result_item = {
           character: @kana.character,
           correct_answer: @kana.romaji,
           answer: answer,
@@ -173,9 +174,9 @@ module Screens
 
         duration = session_ended_at - @session_started_at
 
-        study_data = @results[0][:study_data]
-        @results[0][:study_data][:ended_at] = Time.now
-        @results[0][:study_data][:duration] = duration.round(3)
+        study_data = @results[:study_data]
+        study_data[:ended_at] = Time.now
+        study_data[:duration] = duration.round(3)
       end
 
       def create_input(_name, placeholder, password: false)

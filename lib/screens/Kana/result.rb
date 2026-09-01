@@ -53,10 +53,10 @@ module Screens
           @style.title_center.render("Correct   Incorrect"),
           @style.text_center.render("#{@correct}/#{@questions}         #{@incorrect}     "),
           "",
-          "Time:                #{@minutes}m #{@seconds}s",
-          "Avg. response        3.1s",
-          "Fastest response     3.1s",
-          "Slowest response     3.1s",
+          "Time:                #{@time_minutes}m #{@time_seconds}s",
+          "Avg. response        #{@average_response.round(1)}s",
+          "Fastest response     #{@fastest_response.round(1)}s",
+          "Slowest response     #{@slowest_response.round(1)}s",
           "Best streak          12",
           "",
           "Needs Practice",
@@ -78,17 +78,27 @@ module Screens
       private
 
       def calculate_results
-        @questions = @results.count
-        @correct = @results.count { |result| result[:correct] }
-        @incorrect = @results.count { |result| !result[:correct] }
+        answers = @results[:answers]
+
+        @questions = answers.count
+        @correct = answers.count { |answer| answer[:correct] }
+        @incorrect = answers.count { |answer| answer[:correct] }
 
         @accuracy = ((@correct.to_f/@questions) * 100).round(2)
 
-        study_data = @results[0][:study_data]
+        study_data = @results[:study_data]
         duration = study_data[:duration]
 
-        @minutes = (duration / 60).floor
-        @seconds = (duration % 60).floor
+        @time_minutes = (duration / 60).floor
+        @time_seconds = (duration % 60).floor
+
+        
+        @time_responses = []
+        answers.each { |answer| @time_responses << answer[:response_time]}
+
+        @average_response = @time_responses.sum.fdiv(@time_responses.size)
+        @fastest_response = @time_responses.min
+        @slowest_response = @time_responses.max
       end
 
     end
