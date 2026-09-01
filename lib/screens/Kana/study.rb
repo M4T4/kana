@@ -23,8 +23,9 @@ module Screens
       def update(message)
         case message.to_s
         when "enter"
-          if @index == @kanas.size - 1
-            check_answer
+          check_answer
+          
+          if last_kana?
             complete_test
 
             return [
@@ -36,11 +37,11 @@ module Screens
               },
               nil
             ]
-          else
-            check_answer
-
-            return [nil, nil]
           end
+
+          next_kana
+
+          return [nil, nil]
 
 
         when "esc"
@@ -81,6 +82,7 @@ module Screens
       end
 
       def enter(params= {})
+        @session_started_at = Process.clock_gettime(Process::CLOCK_MONOTONIC)
         @selected_groups = params[:selected_groups] || []
         @syllabary = params[:syllabary] || []
         @kanas = load_kana
@@ -91,14 +93,31 @@ module Screens
         @results << {
           study_data: {
             started_at: Time.now,
+            ended_at: 0,
+            duration: 0,
             syllabary: @syllabary,
             groups: @selected_groups,
-            correct_answers: 0,
           }
         }
+
+        start_kana_timer
       end
 
       private
+
+      def last_kana?
+        @index == @kanas.size - 1
+      end
+
+      def next_kana
+        @index += 1
+        @input.value = ""
+        start_kana_timer
+      end
+
+      def start_kana_timer
+        @kana_time = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+      end
 
       def load_kana
         path = File.expand_path("../../../data/kana.yml", __dir__)
@@ -117,30 +136,20 @@ module Screens
         end
       end
 
-      def check_answer
-        @index += 1
-        debug("input=#{@input.value}")
-        debug("kana=#{@kana.romaji}")
+      def check_answer        
+        ended_at = Process.clock_gettime(Process::CLOCK_MONOTONIC)
 
-        if @input.value == @kana.romaji
-          result_item = {
-            character: @kana.character,
-            correct_answer: @kana.romaji,
-            answer: @input.value,
-            correct: true
-          }
-        else
-          result_item = {
-            character: @kana.character,
-            correct_answer: @kana.romaji,
-            answer: @input.value,
-            correct: false
-          }
+        answer = @input.value.strip.downcase
+        response_time = ended_at - @kana_time
 
-        end
 
-        @input.value = ""
-        @results << result_item
+        @results << result_item = {
+          character: @kana.character,
+          correct_answer: @kana.romaji,
+          answer: answer,
+          correct: answer == @kana.romaji,
+          response_time: response_time.round(3),
+        }
       end
 
       def complete_test
@@ -160,9 +169,13 @@ module Screens
       end
 
       def calculate_timstamps
+        session_ended_at = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+
+        duration = session_ended_at - @session_started_at
+
         study_data = @results[0][:study_data]
         @results[0][:study_data][:ended_at] = Time.now
-        @results[0][:study_data][:duration] = study_data[:ended_at] - study_data[:started_at]
+        @results[0][:study_data][:duration] = duration.round(3)
       end
 
       def create_input(_name, placeholder, password: false)
