@@ -12,7 +12,10 @@ module Styles
                 :kanji_style,
                 :jlpt_style,
                 :label_style,
-                :help_style
+                :help_style,
+                :title_center,
+                :text_center
+
 
     def initialize
       load_defaults
@@ -21,6 +24,15 @@ module Styles
     private
 
     def load_defaults
+      @title_center = Lipgloss::Style.new
+        .bold(true)
+        .align(:center)
+        .width(WIDTH)
+
+      @text_center = Lipgloss::Style.new
+        .align(:center)
+        .width(WIDTH)
+
       @box_style = Lipgloss::Style.new
         .border(:rounded)
         .padding(1, 2)

@@ -19,6 +19,15 @@ module Screens
       @width = 0
       @height = 0
       @style = Styles::Defaults.new()
+
+      @text_center_bold = Lipgloss::Style.new
+        .bold(true)
+        .align(:center)
+        .width(44)
+
+      @text_center = Lipgloss::Style.new
+        .align(:center)
+        .width(44)
     end
 
     def resize(width:, height:)

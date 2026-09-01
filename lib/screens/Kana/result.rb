@@ -3,6 +3,7 @@ require_relative "../../kana"
 require "set"
 require "yaml"
 require "json"
+require "time"
 
 
 module Screens
@@ -34,20 +35,37 @@ module Screens
       end
 
       def render
+        calculate_results
+
         header = [
           @style.title_style.render("NAMI"),
           "",
-          "Results !!!!",
-          "",
+          @style.title_center.render("SESSION RESULTS"),
         ].join("\n")
 
 
         content = [
           header,
           "",
-          "Los súper resultados: #{@results}",
+          @style.title_center.render("Accuracy"),
+          @style.text_center.render("#{@accuracy}%"),
           "",
-          "[esc] Back"
+          @style.title_center.render("Correct   Incorrect"),
+          @style.text_center.render("#{@correct}/#{@questions}         #{@incorrect}     "),
+          "",
+          "Time:                #{@minutes}m #{@seconds}s",
+          "Avg. response        3.1s",
+          "Fastest response     3.1s",
+          "Slowest response     3.1s",
+          "Best streak          12",
+          "",
+          "Needs Practice",
+          "ぬ  nu     ✗ 3",
+          "ぬ  nu     ✗ 3",
+          "ぬ  nu     ✗ 3",
+          "",
+
+          "[r] Retry  [p] Practice again  [esc] Back"
         ].join("\n")
 
         center_box(content)
@@ -57,28 +75,22 @@ module Screens
         @results = params[:results]
       end
 
+      private
+
+      def calculate_results
+        @questions = @results.count
+        @correct = @results.count { |result| result[:correct] }
+        @incorrect = @results.count { |result| !result[:correct] }
+
+        @accuracy = ((@correct.to_f/@questions) * 100).round(2)
+
+        study_data = @results[0][:study_data]
+        duration = study_data[:duration]
+
+        @minutes = (duration / 60).floor
+        @seconds = (duration % 60).floor
+      end
+
     end
   end
 end
-
-
-# Y luego puedes recorrerla fácilmente:
-
-# @results.each do |result|
-#   puts "#{result[:character]}: #{result[:correct] ? "✓" : "✗"}"
-# end
-
-# produciendo algo como:
-
-# か: ✓
-# き: ✗
-# く: ✓
-# け: ✓
-
-# Para NAMI me gusta esta estructura porque después podrás calcular cosas como:
-
-# correct = @results.count { |result| result[:correct] }
-# incorrect = @results.count { |result| !result[:correct] }
-
-
-# accuracy = correct.to_f / @results.size * 100

@@ -103,7 +103,7 @@ module Screens
 
         @results << {
           study_data: {
-            date: Time.now,
+            started_at: Time.now,
             syllabary: @syllabary,
             groups: @selected_groups,
             correct_answers: 0,
@@ -164,10 +164,18 @@ module Screens
         else
           data = []
         end
-
+        
+        calculate_timstamps
+        
         data << @results
 
         File.write(file_path, JSON.pretty_generate(data))
+      end
+
+      def calculate_timstamps
+        study_data = @results[0][:study_data]
+        @results[0][:study_data][:ended_at] = Time.now
+        @results[0][:study_data][:duration] = study_data[:ended_at] - study_data[:started_at]
       end
 
       def create_input(_name, placeholder, password: false)
