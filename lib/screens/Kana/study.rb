@@ -17,20 +17,7 @@ module Screens
         @results = []
 
         @input = create_input("Enter:", " ")
-        @submitted = false
-
-        @label_style = Lipgloss::Style.new.foreground("99")
-        
-
-        @kana_style = Lipgloss::Style.new
-          .bold(true)
-          .align(:center)
-          .width(44)
-
-        @test = Lipgloss::Style.new
-          .bold(true)
-          .align(:right)
-          .width(44)
+        @submitted = false        
       end
 
       def update(message)
@@ -76,14 +63,14 @@ module Screens
           session_info
         ].join("\n")
 
-        input_section = "#{@label_style.render("Enter:")} #{@input.view}"
+        input_section = "#{@style.label_style.render("Enter:")} #{@input.view}"
 
         content = [
           header,
           "",
           "Type romaji form for #{@syllabary} character:",
           "",
-          @kana_style.render(@kana.character),
+          @style.kana_style.render(@kana.character),
           "",
           input_section,
           "",

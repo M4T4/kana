@@ -14,7 +14,8 @@ module Styles
                 :label_style,
                 :help_style,
                 :title_center,
-                :text_center
+                :text_center,
+                :kana_style
 
 
     def initialize
@@ -66,6 +67,11 @@ module Styles
 
       @help_style = Lipgloss::Style.new
         .faint(true)
+
+      @kana_style = Lipgloss::Style.new
+          .bold(true)
+          .align(:center)
+          .width(44)
     end
   end
 end
