@@ -81,6 +81,8 @@ module Screens
       end
 
       def enter(params= {})
+        # Hacemos esto en dado caso que se reinicie el test.
+        @input.value = ""
         @session_started_at = Process.clock_gettime(Process::CLOCK_MONOTONIC)
         @selected_groups = params[:selected_groups] || []
         @syllabary = params[:syllabary] || []

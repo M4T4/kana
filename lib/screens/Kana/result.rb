@@ -36,13 +36,13 @@ module Screens
 
       def render
         calculate_results
+        check_for_wrong_answers
 
         header = [
           @style.title_style.render("NAMI"),
           "",
           @style.title_center.render("SESSION RESULTS"),
         ].join("\n")
-
 
         content = [
           header,
@@ -57,12 +57,9 @@ module Screens
           "Avg. response        #{@average_response.round(1)}s",
           "Fastest response     #{@fastest_response.round(1)}s",
           "Slowest response     #{@slowest_response.round(1)}s",
-          "Best streak          12",
+          "Best streak          #{@best_streak}",
           "",
-          "Needs Practice",
-          "ぬ  nu     ✗ 3",
-          "ぬ  nu     ✗ 3",
-          "ぬ  nu     ✗ 3",
+          @wrong_responses_content,
           "",
 
           "[r] Retry  [p] Practice again  [esc] Back"
@@ -76,6 +73,25 @@ module Screens
       end
 
       private
+
+      def check_for_wrong_answers
+        if @wrong_responses.empty?
+          @wrong_responses_content = ""
+        else
+
+          wrong_responses_content = @wrong_responses
+          .map do |(character, romaji), count|
+            "#{character}  #{romaji.ljust(5)} ✗ #{count}"
+          end
+
+          needs_practice = wrong_responses_content.empty? ? "" : "Needs Practice"
+
+          @wrong_responses_content = [
+            "Needs Practice",
+            wrong_responses_content,
+          ].join("\n")
+        end
+      end
 
       def calculate_results
         answers = @results[:answers]
@@ -99,6 +115,26 @@ module Screens
         @average_response = @time_responses.sum.fdiv(@time_responses.size)
         @fastest_response = @time_responses.min
         @slowest_response = @time_responses.max
+
+        @best_streak = 0
+        current_streak = 0 
+        
+        answers.each do | answer |
+          if answer[:correct] == true
+            debug("Entree")
+            current_streak += 1
+            if current_streak > @best_streak 
+              @best_streak = current_streak
+            end
+          else
+            current_streak = 0
+          end
+        end
+
+        @wrong_responses = answers
+          .reject { |answer| answer[:correct] }
+          .map { |answer| [answer[:character], answer[:correct_answer]] }
+          .tally
       end
 
     end
