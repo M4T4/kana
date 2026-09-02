@@ -120,7 +120,7 @@ module Screens
         current_streak = 0 
         
         answers.each do | answer |
-          if answer[:correct] == true
+          if answer[:correct]
             debug("Entree")
             current_streak += 1
             if current_streak > @best_streak 

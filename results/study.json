@@ -4859,5 +4859,51 @@
         "response_time": 0.126
       }
     ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-02 12:48:57 -0700",
+      "ended_at": "2026-09-02 12:49:00 -0700",
+      "duration": 2.612,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "ka",
+        "correct": true,
+        "response_time": 1.229
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "ki",
+        "correct": true,
+        "response_time": 0.927
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.166
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.146
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.131
+      }
+    ]
   }
 ]
