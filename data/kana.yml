@@ -1,0 +1,994 @@
+gojuon:
+  a:
+  - hiragana: あ
+    katakana: ア
+    romaji: a
+    ipa: a
+  - hiragana: い
+    katakana: イ
+    romaji: i
+    ipa: i
+  - hiragana: う
+    katakana: ウ
+    romaji: u
+    ipa: ɯᵝ
+  - hiragana: え
+    katakana: エ
+    romaji: e
+    ipa: e
+  - hiragana: お
+    katakana: オ
+    romaji: o
+    ipa: o
+  ka:
+  - hiragana: か
+    katakana: カ
+    romaji: ka
+    ipa: ka
+  - hiragana: き
+    katakana: キ
+    romaji: ki
+    ipa: kʲi
+  - hiragana: く
+    katakana: ク
+    romaji: ku
+    ipa: kɯᵝ
+  - hiragana: け
+    katakana: ケ
+    romaji: ke
+    ipa: ke
+  - hiragana: こ
+    katakana: コ
+    romaji: ko
+    ipa: ko
+  sa:
+  - hiragana: さ
+    katakana: サ
+    romaji: sa
+    ipa: sa
+  - hiragana: し
+    katakana: シ
+    romaji: shi
+    ipa: ɕi
+  - hiragana: す
+    katakana: ス
+    romaji: su
+    ipa: sɨᵝ
+  - hiragana: せ
+    katakana: セ
+    romaji: se
+    ipa: se
+  - hiragana: そ
+    katakana: ソ
+    romaji: so
+    ipa: so
+  ta:
+  - hiragana: た
+    katakana: タ
+    romaji: ta
+    ipa: ta
+  - hiragana: ち
+    katakana: チ
+    romaji: chi
+    ipa: tɕi
+  - hiragana: つ
+    katakana: ツ
+    romaji: tsu
+    ipa: tsɨᵝ
+  - hiragana: て
+    katakana: テ
+    romaji: te
+    ipa: te
+  - hiragana: と
+    katakana: ト
+    romaji: to
+    ipa: to
+  na:
+  - hiragana: な
+    katakana: ナ
+    romaji: na
+    ipa: na
+  - hiragana: に
+    katakana: ニ
+    romaji: ni
+    ipa: ni
+  - hiragana: ぬ
+    katakana: ヌ
+    romaji: nu
+    ipa: nɯᵝ
+  - hiragana: ね
+    katakana: ネ
+    romaji: ne
+    ipa: ne
+  - hiragana: の
+    katakana: ノ
+    romaji: 'no'
+    ipa: 'no'
+  ha:
+  - hiragana: は
+    katakana: ハ
+    romaji: ha
+    ipa: ha
+  - hiragana: ひ
+    katakana: ヒ
+    romaji: hi
+    ipa: çi
+  - hiragana: ふ
+    katakana: フ
+    romaji: fu
+    ipa: ɸɯᵝ
+  - hiragana: へ
+    katakana: ヘ
+    romaji: he
+    ipa: he
+  - hiragana: ほ
+    katakana: ホ
+    romaji: ho
+    ipa: ho
+  ma:
+  - hiragana: ま
+    katakana: マ
+    romaji: ma
+    ipa: ma
+  - hiragana: み
+    katakana: ミ
+    romaji: mi
+    ipa: mi
+  - hiragana: む
+    katakana: ム
+    romaji: mu
+    ipa: mɯᵝ
+  - hiragana: め
+    katakana: メ
+    romaji: me
+    ipa: me
+  - hiragana: も
+    katakana: モ
+    romaji: mo
+    ipa: mo
+  ya:
+  - hiragana: や
+    katakana: ヤ
+    romaji: ya
+    ipa: ja
+  - hiragana: ゆ
+    katakana: ユ
+    romaji: yu
+    ipa: jɯᵝ
+  - hiragana: よ
+    katakana: ヨ
+    romaji: yo
+    ipa: jo
+  ra:
+  - hiragana: ら
+    katakana: ラ
+    romaji: ra
+    ipa: ɾa
+  - hiragana: り
+    katakana: リ
+    romaji: ri
+    ipa: ɾʲi
+  - hiragana: る
+    katakana: ル
+    romaji: ru
+    ipa: ɾɯᵝ
+  - hiragana: れ
+    katakana: レ
+    romaji: re
+    ipa: ɾe
+  - hiragana: ろ
+    katakana: ロ
+    romaji: ro
+    ipa: ɾo
+  wa:
+  - hiragana: わ
+    katakana: ワ
+    romaji: wa
+    ipa: ɰᵝa
+  - hiragana: を
+    katakana: ヲ
+    romaji: wo
+    ipa: o
+  n:
+  - hiragana: ん
+    katakana: ン
+    romaji: n
+    ipa: n
+dakuten:
+  ga:
+  - hiragana: が
+    katakana: ガ
+    romaji: ga
+    ipa: ga
+    combination:
+      hiragana:
+      - か
+      - ゛
+      katakana:
+      - カ
+      - ゛
+  - hiragana: ぎ
+    katakana: ギ
+    romaji: gi
+    ipa: gʲi
+    combination:
+      hiragana:
+      - き
+      - ゛
+      katakana:
+      - キ
+      - ゛
+  - hiragana: ぐ
+    katakana: グ
+    romaji: gu
+    ipa: gɯᵝ
+    combination:
+      hiragana:
+      - く
+      - ゛
+      katakana:
+      - ク
+      - ゛
+  - hiragana: げ
+    katakana: ゲ
+    romaji: ge
+    ipa: ge
+    combination:
+      hiragana:
+      - け
+      - ゛
+      katakana:
+      - ケ
+      - ゛
+  - hiragana: ご
+    katakana: ゴ
+    romaji: go
+    ipa: go
+    combination:
+      hiragana:
+      - こ
+      - ゛
+      katakana:
+      - コ
+      - ゛
+  za:
+  - hiragana: ざ
+    katakana: ザ
+    romaji: za
+    ipa: dza
+    combination:
+      hiragana:
+      - さ
+      - ゛
+      katakana:
+      - サ
+      - ゛
+  - hiragana: じ
+    katakana: ジ
+    romaji: ji
+    ipa: ʑi
+    combination:
+      hiragana:
+      - し
+      - ゛
+      katakana:
+      - シ
+      - ゛
+  - hiragana: ず
+    katakana: ズ
+    romaji: zu
+    ipa: zɯ
+    combination:
+      hiragana:
+      - す
+      - ゛
+      katakana:
+      - ス
+      - ゛
+  - hiragana: ぜ
+    katakana: ゼ
+    romaji: ze
+    ipa: ze
+    combination:
+      hiragana:
+      - せ
+      - ゛
+      katakana:
+      - セ
+      - ゛
+  - hiragana: ぞ
+    katakana: ゾ
+    romaji: zo
+    ipa: zo
+    combination:
+      hiragana:
+      - そ
+      - ゛
+      katakana:
+      - ソ
+      - ゛
+  da:
+  - hiragana: だ
+    katakana: ダ
+    romaji: da
+    ipa: da
+    combination:
+      hiragana:
+      - た
+      - ゛
+      katakana:
+      - タ
+      - ゛
+  - hiragana: ぢ
+    katakana: ヂ
+    romaji: di
+    ipa: dʑi
+    combination:
+      hiragana:
+      - ち
+      - ゛
+      katakana:
+      - チ
+      - ゛
+  - hiragana: づ
+    katakana: ヅ
+    romaji: du
+    ipa: dzɯ
+    combination:
+      hiragana:
+      - つ
+      - ゛
+      katakana:
+      - ツ
+      - ゛
+  - hiragana: で
+    katakana: デ
+    romaji: de
+    ipa: de
+    combination:
+      hiragana:
+      - て
+      - ゛
+      katakana:
+      - テ
+      - ゛
+  - hiragana: ど
+    katakana: ド
+    romaji: do
+    ipa: do
+    combination:
+      hiragana:
+      - と
+      - ゛
+      katakana:
+      - ト
+      - ゛
+  ba:
+  - hiragana: ば
+    katakana: バ
+    romaji: ba
+    ipa: ba
+    combination:
+      hiragana:
+      - は
+      - ゛
+      katakana:
+      - ハ
+      - ゛
+  - hiragana: び
+    katakana: ビ
+    romaji: bi
+    ipa: bʲi
+    combination:
+      hiragana:
+      - ひ
+      - ゛
+      katakana:
+      - ヒ
+      - ゛
+  - hiragana: ぶ
+    katakana: ブ
+    romaji: bu
+    ipa: bɯᵝ
+    combination:
+      hiragana:
+      - ふ
+      - ゛
+      katakana:
+      - フ
+      - ゛
+  - hiragana: べ
+    katakana: ベ
+    romaji: be
+    ipa: be
+    combination:
+      hiragana:
+      - へ
+      - ゛
+      katakana:
+      - ヘ
+      - ゛
+  - hiragana: ぼ
+    katakana: ボ
+    romaji: bo
+    ipa: bo
+    combination:
+      hiragana:
+      - ほ
+      - ゛
+      katakana:
+      - ホ
+      - ゛
+handakuten:
+  pa:
+  - hiragana: ぱ
+    katakana: パ
+    romaji: pa
+    ipa: pa
+    combination:
+      hiragana:
+      - は
+      - ゜
+      katakana:
+      - ハ
+      - ゜
+  - hiragana: ぴ
+    katakana: ピ
+    romaji: pi
+    ipa: pʲi
+    combination:
+      hiragana:
+      - ひ
+      - ゜
+      katakana:
+      - ヒ
+      - ゜
+  - hiragana: ぷ
+    katakana: プ
+    romaji: pu
+    ipa: pɯᵝ
+    combination:
+      hiragana:
+      - ふ
+      - ゜
+      katakana:
+      - フ
+      - ゜
+  - hiragana: ぺ
+    katakana: ペ
+    romaji: pe
+    ipa: pe
+    combination:
+      hiragana:
+      - へ
+      - ゜
+      katakana:
+      - ヘ
+      - ゜
+  - hiragana: ぽ
+    katakana: ポ
+    romaji: po
+    ipa: po
+    combination:
+      hiragana:
+      - ほ
+      - ゜
+      katakana:
+      - ホ
+      - ゜
+yoon:
+  ky:
+  - hiragana: きゃ
+    katakana: キャ
+    romaji: kya
+    ipa: kʲa
+  - hiragana: きゅ
+    katakana: キュ
+    romaji: kyu
+    ipa: kʲɨ
+  - hiragana: きょ
+    katakana: キョ
+    romaji: kyo
+    ipa: kʲo
+  sh:
+  - hiragana: しゃ
+    katakana: シャ
+    romaji: sha
+    ipa: ɕa
+  - hiragana: しゅ
+    katakana: シュ
+    romaji: shu
+    ipa: ɕɨ
+  - hiragana: しょ
+    katakana: ショ
+    romaji: sho
+    ipa: ɕo
+  ch:
+  - hiragana: ちゃ
+    katakana: チャ
+    romaji: cha
+    ipa: tɕa
+  - hiragana: ちゅ
+    katakana: チュ
+    romaji: chu
+    ipa: tɕɨ
+  - hiragana: ちょ
+    katakana: チョ
+    romaji: cho
+    ipa: tɕo
+  ny:
+  - hiragana: にゃ
+    katakana: ニャ
+    romaji: nya
+    ipa: ɲa
+  - hiragana: にゅ
+    katakana: ニュ
+    romaji: nyu
+    ipa: ɲɯ
+  - hiragana: にょ
+    katakana: ニョ
+    romaji: nyo
+    ipa: ɲo
+  hy:
+  - hiragana: ひゃ
+    katakana: ヒャ
+    romaji: hya
+    ipa: ça
+  - hiragana: ひゅ
+    katakana: ヒュ
+    romaji: hyu
+    ipa: çɨ
+  - hiragana: ひょ
+    katakana: ヒョ
+    romaji: hyo
+    ipa: ço
+  my:
+  - hiragana: みゃ
+    katakana: ミャ
+    romaji: mya
+    ipa: mʲa
+  - hiragana: みゅ
+    katakana: ミュ
+    romaji: myu
+    ipa: mʲɨ
+  - hiragana: みょ
+    katakana: ミョ
+    romaji: myo
+    ipa: mʲo
+  ry:
+  - hiragana: りゃ
+    katakana: リャ
+    romaji: rya
+    ipa: ɾʲa
+  - hiragana: りゅ
+    katakana: リュ
+    romaji: ryu
+    ipa: ɾʲɨ
+  - hiragana: りょ
+    katakana: リョ
+    romaji: ryo
+    ipa: ɾʲo
+  gy:
+  - hiragana: ぎゃ
+    katakana: ギャ
+    romaji: gya
+    ipa: ɡʲa
+  - hiragana: ぎゅ
+    katakana: ギュ
+    romaji: gyu
+    ipa: ɡʲɨ
+  - hiragana: ぎょ
+    katakana: ギョ
+    romaji: gyo
+    ipa: ɡʲo
+  j:
+  - hiragana: じゃ
+    katakana: ジャ
+    romaji: ja
+    ipa: dʑa
+  - hiragana: じゅ
+    katakana: ジュ
+    romaji: ju
+    ipa: dʑɨ
+  - hiragana: じょ
+    katakana: ジョ
+    romaji: jo
+    ipa: dʑo
+  dy:
+  - hiragana: ぢゃ
+    katakana: ヂャ
+    romaji: dya
+    ipa: dʑa
+  - hiragana: ぢゅ
+    katakana: ヂュ
+    romaji: dyu
+    ipa: dʑɨ
+  - hiragana: ぢょ
+    katakana: ヂョ
+    romaji: dyo
+    ipa: dʑo
+  by:
+  - hiragana: びゃ
+    katakana: ビャ
+    romaji: bya
+    ipa: bʲa
+  - hiragana: びゅ
+    katakana: ビュ
+    romaji: byu
+    ipa: bʲɨ
+  - hiragana: びょ
+    katakana: ビョ
+    romaji: byo
+    ipa: bʲo
+  py:
+  - hiragana: ぴゃ
+    katakana: ピャ
+    romaji: pya
+    ipa: pʲa
+  - hiragana: ぴゅ
+    katakana: ピュ
+    romaji: pyu
+    ipa: pʲɨ
+  - hiragana: ぴょ
+    katakana: ピョ
+    romaji: pyo
+    ipa: pʲo
+sokuon:
+  kka:
+  - hiragana: っか
+    katakana: ッカ
+    romaji: kka
+    ipa: :ka
+  - hiragana: っき
+    katakana: ッキ
+    romaji: kki
+    ipa: :ki
+  - hiragana: っく
+    katakana: ック
+    romaji: kku
+    ipa: :kɯ
+  - hiragana: っけ
+    katakana: ッケ
+    romaji: kke
+    ipa: :ke
+  - hiragana: っこ
+    katakana: ッコ
+    romaji: kko
+    ipa: :ko
+  ssa:
+  - hiragana: っさ
+    katakana: ッサ
+    romaji: ssa
+    ipa: :sa
+  - hiragana: っし
+    katakana: ッシ
+    romaji: sshi
+    ipa: :ɕi
+  - hiragana: っす
+    katakana: ッス
+    romaji: ssu
+    ipa: :sɯ
+  - hiragana: っせ
+    katakana: ッセ
+    romaji: sse
+    ipa: :se
+  - hiragana: っそ
+    katakana: ッソ
+    romaji: sso
+    ipa: :so
+  tta:
+  - hiragana: った
+    katakana: ッタ
+    romaji: tta
+    ipa: :ta
+  - hiragana: っち
+    katakana: ッチ
+    romaji: cchi
+    ipa: :tɕi
+  - hiragana: っつ
+    katakana: ッツ
+    romaji: ttsu
+    ipa: :tsɯ
+  - hiragana: って
+    katakana: ッテ
+    romaji: tte
+    ipa: :te
+  - hiragana: っと
+    katakana: ット
+    romaji: tto
+    ipa: :to
+  bba:
+  - hiragana: っば
+    katakana: ッバ
+    romaji: bba
+    ipa: :ba
+  - hiragana: っび
+    katakana: ッビ
+    romaji: bbi
+    ipa: :bi
+  - hiragana: っぶ
+    katakana: ッブ
+    romaji: bbu
+    ipa: :bɯ
+  - hiragana: っべ
+    katakana: ッベ
+    romaji: bbe
+    ipa: :be
+  - hiragana: っぼ
+    katakana: ッボ
+    romaji: bbo
+    ipa: :bo
+  ppa:
+  - hiragana: っぱ
+    katakana: ッパ
+    romaji: ppa
+    ipa: :pa
+  - hiragana: っぴ
+    katakana: ッピ
+    romaji: ppi
+    ipa: :pi
+  - hiragana: っぷ
+    katakana: ップ
+    romaji: ppu
+    ipa: :pɯ
+  - hiragana: っぺ
+    katakana: ッぺ
+    romaji: ppe
+    ipa: :pe
+  - hiragana: っぽ
+    katakana: ッポ
+    romaji: ppo
+    ipa: :po
+tokushuon:
+  k:
+  - hiragana: きぇ
+    katakana: キェ
+    romaji: kie
+    ipa: ke
+  kw:
+  - hiragana: くぁ
+    katakana: クヮ
+    romaji: kwa
+    ipa: ka
+  - hiragana: くぃ
+    katakana: クィ
+    romaji: kwi
+    ipa: ki
+  - hiragana: くぇ
+    katakana: クェ
+    romaji: kwe
+    ipa: ke
+  - hiragana: くぉ
+    katakana: クォ
+    romaji: kwo
+    ipa: ko
+  gy:
+  - hiragana: ぎぇ
+    katakana: ギェ
+    romaji: gye
+    ipa: gʲe
+  gw:
+  - hiragana: ぐぁ
+    katakana: クヮ
+    romaji: gwa
+    ipa: ɡɰᵝa
+  - hiragana: ぐぃ
+    katakana: クィ
+    romaji: gwi
+    ipa: ɡɰᵝi
+  - hiragana: ぐぇ
+    katakana: クェ
+    romaji: gwe
+    ipa: ɡɰᵝe
+  - hiragana: ぐぉ
+    katakana: クォ
+    romaji: gwo
+    ipa: ɡɰᵝo
+  s:
+  - hiragana: すぃ
+    katakana: スィ
+    romaji: swi
+    ipa: si
+  sh:
+  - hiragana: しぃ
+    katakana: シェ
+    romaji: she
+    ipa: ɕe
+  zw:
+  - hiragana: ずぃ
+    katakana: ズィ
+    romaji: zwi
+    ipa: dzʲi
+  j:
+  - hiragana: しぃ
+    katakana: ジェ
+    romaji: je
+    ipa: D͡ʑe
+  tw:
+  - hiragana: てぃ
+    katakana: ティ
+    romaji: twi
+    ipa: ti
+  - hiragana: とぅ
+    katakana: トゥ
+    romaji: twu
+    ipa: tɯ
+  ty:
+  - hiragana: とゅ
+    katakana: テュ
+    romaji: tyu
+    ipa: tʲɯ
+  ch:
+  - hiragana: ちぇ
+    katakana: チェ
+    romaji: che
+    ipa: t͡ɕe
+  ts:
+  - hiragana: つぁ
+    katakana: ツァ
+    romaji: tsa
+    ipa: t͡sa
+  - hiragana: つぃ
+    katakana: ツィ
+    romaji: tsi
+    ipa: t͡si
+  - hiragana: つぇ
+    katakana: ツェ
+    romaji: tse
+    ipa: t͡se
+  - hiragana: つぉ
+    katakana: ツォ
+    romaji: tso
+    ipa: t͡so
+  dw:
+  - hiragana: どぃ
+    katakana: ドィ
+    romaji: dwi
+    ipa: dɰᵝi
+  - hiragana: どぅ
+    katakana: ドゥ
+    romaji: dwu
+    ipa: dɯ
+  dy:
+  - hiragana: でゅ
+    katakana: デュ
+    romaji: dyu
+    ipa: dʲɯ
+  ny:
+  - hiragana: にぇ
+    katakana: ニェ
+    romaji: nye
+    ipa: Ɲe
+  h:
+  - hiragana: ほぅ
+    katakana: ホゥ
+    romaji: hu
+    ipa: hɯ
+  hy:
+  - hiragana: ひぇ
+    katakana: ヒェ
+    romaji: hye
+    ipa: çe
+  f:
+  - hiragana: ふぁ
+    katakana: ファ
+    romaji: fa
+    ipa: ɸa
+  - hiragana: ふぃ
+    katakana: フィ
+    romaji: fi
+    ipa: ɸi
+  - hiragana: ふぇ
+    katakana: フェ
+    romaji: fe
+    ipa: ɸe
+  - hiragana: ふぉ
+    katakana: フォ
+    romaji: fo
+    ipa: ɸo
+  fy:
+  - hiragana: ふゃ
+    katakana: フャ
+    romaji: fya
+    ipa: ɸʲa
+  - hiragana: ふゅ
+    katakana: フュ
+    romaji: fyu
+    ipa: ɸʲɯ
+  - hiragana: ふぃぇ
+    katakana: フィェ
+    romaji: fye
+    ipa: ɸʲe
+  - hiragana: ふょ
+    katakana: フョ
+    romaji: fyo
+    ipa: ɸʲo
+  by:
+  - hiragana: びぇ
+    katakana: ビェ
+    romaji: bye
+    ipa: be
+  py:
+  - hiragana: ぴぇ
+    katakana: ピェ
+    romaji: pye
+    ipa: pe
+  my:
+  - hiragana: みぇ
+    katakana: ミェ
+    romaji: mye
+    ipa: me
+  y:
+  - hiragana: いぃ
+    katakana: イィ
+    romaji: yi
+    ipa: ji
+  - hiragana: いぇ
+    katakana: イェ
+    romaji: ye
+    ipa: je
+  ry:
+  - hiragana: りぇ
+    katakana: リェ
+    romaji: rye
+    ipa: ɾʲe
+  w:
+  - hiragana: わぃ
+    katakana: ウィ
+    romaji: wi
+    ipa: ɰᵝi
+  - hiragana: わぅ
+    katakana: ウゥ
+    romaji: wu
+    ipa: ɰᵝɯ
+  - hiragana: わぇ
+    katakana: ウェ
+    romaji: we
+    ipa: ɰᵝe
+  - hiragana: わぉ
+    katakana: ウォ
+    romaji: wo
+    ipa: ɰᵝo
+  wy:
+  - hiragana: わゅ
+    katakana: ウュ
+    romaji: wyu
+    ipa: ɰʲɯ
+  v:
+  - hiragana: ゔぁ
+    katakana: ヴァ
+    romaji: va
+    ipa: ba
+  - hiragana: ゔぃ
+    katakana: ヴィ
+    romaji: vi
+    ipa: bi
+  - hiragana: ゔ
+    katakana: ヴ
+    romaji: vu
+    ipa: bɯ
+  - hiragana: ゔぇ
+    katakana: ヴェ
+    romaji: ve
+    ipa: be
+  - hiragana: ゔぉ
+    katakana: ヴォ
+    romaji: vo
+    ipa: bo
+  vy:
+  - hiragana: ゔゃ
+    katakana: ヴャ
+    romaji: vya
+    ipa: bʲa
+  - hiragana: ゔゅ
+    katakana: ヴュ
+    romaji: vyu
+    ipa: bʲɯ
+  - hiragana: ゔぃぇ
+    katakana: ヴィェ
+    romaji: vye
+    ipa: bʲe
+  - hiragana: ゔょ
+    katakana: ヴョ
+    romaji: vyo
+    ipa: bʲo

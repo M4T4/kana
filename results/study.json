@@ -1,0 +1,4909 @@
+[
+  {
+    "name": "Charlie",
+    "role": "Designer"
+  },
+  {
+    "name": "Charlie",
+    "role": "Designer"
+  },
+  {
+    "name": "Charlie",
+    "role": "Designer"
+  },
+  {
+    "name": "Charlie",
+    "role": "Designer"
+  },
+  {
+    "name": "Charlie",
+    "role": "Designer"
+  },
+  [
+    {
+      "romaji": "ka",
+      "input": "ka",
+      "correct": true
+    },
+    {
+      "romaji": "ki",
+      "input": "ke",
+      "correct": false
+    },
+    {
+      "romaji": "ku",
+      "input": "ku",
+      "correct": true
+    },
+    {
+      "romaji": "ke",
+      "input": "ke",
+      "correct": true
+    }
+  ],
+  [
+    {
+      "romaji": "ka",
+      "input": "ka",
+      "correct": true
+    },
+    {
+      "romaji": "ki",
+      "input": "ke",
+      "correct": false
+    },
+    {
+      "romaji": "ku",
+      "input": "ku",
+      "correct": true
+    },
+    {
+      "romaji": "ke",
+      "input": "ke",
+      "correct": true
+    },
+    {
+      "romaji": "ka",
+      "input": "ko",
+      "correct": false
+    },
+    {
+      "romaji": "ki",
+      "input": "ki",
+      "correct": true
+    },
+    {
+      "romaji": "ku",
+      "input": "ku",
+      "correct": true
+    },
+    {
+      "romaji": "ke",
+      "input": "ke",
+      "correct": true
+    }
+  ],
+  [
+    {
+      "date": "2026-08-27 13:14:58 -0700"
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ke",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ko",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:23:46 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "kek",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ky",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "je",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:34:49 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ke",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ku",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:34:49 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ke",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ku",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:34:49 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ke",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ku",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:34:49 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ke",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ku",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:34:49 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ke",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ku",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:34:49 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ke",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ku",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:34:49 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ke",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ku",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:34:49 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ke",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ku",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:34:49 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ke",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ku",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:34:49 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ke",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ku",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:34:49 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ke",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ku",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:34:49 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ke",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ku",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:34:49 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ke",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ku",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:34:49 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ke",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ku",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:34:49 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ke",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ku",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:34:49 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ke",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ku",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:34:49 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ke",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ku",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:34:49 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ke",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ku",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:39:20 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ku",
+      "correct": true
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ko",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:39:20 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ku",
+      "correct": true
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ko",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:39:20 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ku",
+      "correct": true
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ko",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:39:20 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ku",
+      "correct": true
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ko",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:39:20 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ku",
+      "correct": true
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ko",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:39:20 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ku",
+      "correct": true
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ko",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:39:20 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ku",
+      "correct": true
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ko",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:39:20 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ku",
+      "correct": true
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ko",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:42:27 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ku",
+      "correct": true
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ko",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "ko",
+      "correct": true
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:43:43 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "a",
+      "correct": false
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "a",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "a",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "a",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:43:43 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "a",
+      "correct": false
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "a",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "a",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "a",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:43:43 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "a",
+      "correct": false
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "a",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "a",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "a",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:43:43 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "a",
+      "correct": false
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "a",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "a",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "a",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:44:24 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "kaka",
+      "correct": false
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ak",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "a",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "kak",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:44:49 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "kasd",
+      "correct": false
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "dsadkasKDSAKdASDDADKKDaSKDK",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:46:09 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "kaa",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "k",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "aka",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:46:32 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ka",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ka",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ka",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-27 13:46:53 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ka",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "k",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "k",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "k",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-31 16:56:21 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ku",
+      "correct": true
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ke",
+      "correct": true
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "ko",
+      "correct": true
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-31 16:57:44 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ka",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ak",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ak",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "akka",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-31 17:01:41 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "kakaka",
+      "correct": false
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ak",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "kaka",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "kaka",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "aka",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-08-31 17:01:58 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ke",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ki",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ka",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "ka",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-09-01 10:26:56 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "akak",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "aka",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ka",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "kaka",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-09-01 10:29:09 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-09-01 10:31:14 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "s",
+      "correct": false
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "s",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "s",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "s",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "s",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-09-01 10:31:38 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-09-01 10:37:09 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-09-01 10:46:09 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-09-01 10:46:39 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-09-01 10:47:07 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": " ",
+      "correct": false
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-09-01 10:47:45 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-09-01 10:48:12 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-09-01 10:48:27 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-09-01 10:48:38 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": " ",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-09-01 10:55:00 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-09-01 10:56:21 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ke",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ku",
+      "correct": true
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ke",
+      "correct": true
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "kj",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-09-01 10:56:59 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-09-01 11:00:09 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "  ",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "ko",
+      "correct": true
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-09-01 11:00:57 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ke",
+      "correct": true
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-09-01 11:01:20 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ku",
+      "correct": true
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-09-01 11:45:03 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": " ",
+      "correct": false
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": " 1 ",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "1",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "1 ",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "date": "2026-09-01 11:50:08 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0,
+        "end_time": "2026-09-01 11:50:09 -0700"
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "started_at": "2026-09-01 11:54:20 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0,
+        "ended_at": "2026-09-01 11:54:23 -0700"
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": " kakaka",
+      "correct": false
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "aka",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ka",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ak",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "aka",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "started_at": "2026-09-01 11:56:03 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0,
+        "ended_at": "2026-09-01 11:56:04 -0700"
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "started_at": "2026-09-01 11:57:30 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0,
+        "ended_at": "2026-09-01 11:57:31 -0700"
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "started_at": "2026-09-01 11:57:49 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0,
+        "ended_at": "2026-09-01 11:57:50 -0700"
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "started_at": "2026-09-01 11:59:20 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0,
+        "ended_at": "2026-09-01 11:59:21 -0700"
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "1",
+      "correct": false
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "started_at": "2026-09-01 12:00:52 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0,
+        "ended_at": "2026-09-01 12:00:53 -0700"
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "started_at": "2026-09-01 12:01:12 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0,
+        "ended_at": "2026-09-01 12:01:18 -0700"
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ku",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ku",
+      "correct": true
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ke",
+      "correct": true
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "ko",
+      "correct": true
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "started_at": "2026-09-01 12:03:40 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0,
+        "ended_at": "2026-09-01 12:03:45 -0700",
+        "duration": 4.990241
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "ko",
+      "correct": true
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "started_at": "2026-09-01 12:05:57 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0,
+        "ended_at": "2026-09-01 12:06:04 -0700",
+        "duration": 6.596141
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ko\\",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ku",
+      "correct": true
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "kek",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "ko",
+      "correct": true
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "started_at": "2026-09-01 12:07:10 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0,
+        "ended_at": "2026-09-01 12:07:15 -0700",
+        "duration": 5.886115
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ku",
+      "correct": true
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ke",
+      "correct": true
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "ko",
+      "correct": true
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "started_at": "2026-09-01 12:07:28 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0,
+        "ended_at": "2026-09-01 12:07:32 -0700",
+        "duration": 3.752889
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ko",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ku",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "ke",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "started_at": "2026-09-01 12:42:47 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0,
+        "ended_at": "2026-09-01 12:42:50 -0700",
+        "duration": 2.988403
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "kakaka",
+      "correct": false
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "k",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "a",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ak",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "ak",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "started_at": "2026-09-01 12:45:06 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "correct_answers": 0,
+        "ended_at": "2026-09-01 12:45:07 -0700",
+        "duration": 1.351335
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "started_at": "2026-09-01 12:53:51 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "ended_at": "2026-09-01 12:53:55 -0700",
+        "duration": 4.246075
+      }
+    },
+    {
+      "time_sequence": -1.9175609999801964,
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "time_sequence": -3.5744630000554025,
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "time_sequence": -3.846386000048369,
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "time_sequence": -4.0586969999130815,
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "time_sequence": -4.244189999997616,
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "started_at": "2026-09-01 12:57:01 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "ended_at": "2026-09-01 12:57:08 -0700",
+        "duration": 7.255952
+      }
+    },
+    {
+      "time_sequence": 1.648342999862507,
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "time_sequence": 4.024808999849483,
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "time_sequence": 4.220183999976143,
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "time_sequence": 6.0422739998903126,
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ke",
+      "correct": true
+    },
+    {
+      "time_sequence": 7.253504999913275,
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "ko",
+      "correct": true
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "started_at": "2026-09-01 12:59:31 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "ended_at": "2026-09-01 12:59:34 -0700",
+        "duration": 3.394987
+      }
+    },
+    {
+      "time_sequence": 0.0992610000539571,
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": " ",
+      "correct": false
+    },
+    {
+      "time_sequence": 0.3307360000908375,
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": " ",
+      "correct": false
+    },
+    {
+      "time_sequence": 1.8454700000584126,
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "time_sequence": 2.0151370000094175,
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false
+    },
+    {
+      "time_sequence": 2.538761999923736,
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "started_at": "2026-09-01 13:00:16 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "ended_at": "2026-09-01 13:00:27 -0700",
+        "duration": 10.819254
+      }
+    },
+    {
+      "time_sequence": 0.4200989999808371,
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "time_sequence": 0.19511400000192225,
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ka",
+      "correct": false
+    },
+    {
+      "time_sequence": 0.5069470000453293,
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ak",
+      "correct": false
+    },
+    {
+      "time_sequence": 0.287516999989748,
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "ke",
+      "correct": true
+    },
+    {
+      "time_sequence": 0.21925700013525784,
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "started_at": "2026-09-01 13:01:32 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "ended_at": "2026-09-01 13:01:39 -0700",
+        "duration": 6.233259
+      }
+    },
+    {
+      "time_sequence": 0.13074099994264543,
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true
+    },
+    {
+      "time_sequence": 0.21344199986197054,
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ki",
+      "correct": true
+    },
+    {
+      "time_sequence": 0.1791329998522997,
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ku",
+      "correct": true
+    },
+    {
+      "time_sequence": 0.1420879999641329,
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "sad",
+      "correct": false
+    },
+    {
+      "time_sequence": 0.0886030001565814,
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "",
+      "correct": false
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "started_at": "2026-09-01 13:18:10 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "ended_at": "2026-09-01 13:18:16 -0700",
+        "duration": 6.320345
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true,
+      "response_time": 1.301
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ku",
+      "correct": false,
+      "response_time": 2.823
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false,
+      "response_time": 0.436
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false,
+      "response_time": 0.225
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "ko",
+      "correct": true,
+      "response_time": 1.531
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "started_at": "2026-09-01 13:18:57 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "ended_at": "2026-09-01 13:19:02 -0700",
+        "duration": 4.664746
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true,
+      "response_time": 1.559
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "ka",
+      "correct": false,
+      "response_time": 0.165
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "ka",
+      "correct": false,
+      "response_time": 0.162
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "kak",
+      "correct": false,
+      "response_time": 0.734
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "ko",
+      "correct": true,
+      "response_time": 2.039
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "started_at": "2026-09-01 13:23:23 -0700",
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>",
+        "ended_at": "2026-09-01 13:23:27 -0700",
+        "duration": 3.916
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "",
+      "correct": false,
+      "response_time": 0.753
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "",
+      "correct": false,
+      "response_time": 0.223
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false,
+      "response_time": 0.168
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false,
+      "response_time": 1.377
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "",
+      "correct": false,
+      "response_time": 1.382
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "started_at": "2026-09-01 13:28:43 -0700",
+        "ended_at": "2026-09-01 13:28:44 -0700",
+        "duration": 0.944,
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>"
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "",
+      "correct": false,
+      "response_time": 0.306
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "",
+      "correct": false,
+      "response_time": 0.197
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false,
+      "response_time": 0.142
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false,
+      "response_time": 0.147
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "",
+      "correct": false,
+      "response_time": 0.142
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "started_at": "2026-09-01 13:29:34 -0700",
+        "ended_at": "2026-09-01 13:29:38 -0700",
+        "duration": 3.153,
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>"
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "1",
+      "correct": false,
+      "response_time": 0.959
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "dasd",
+      "correct": false,
+      "response_time": 0.887
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "sdad",
+      "correct": false,
+      "response_time": 0.614
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false,
+      "response_time": 0.219
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "dsa",
+      "correct": false,
+      "response_time": 0.46
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "started_at": "2026-09-01 13:37:15 -0700",
+        "ended_at": "2026-09-01 13:37:20 -0700",
+        "duration": 5.128,
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>"
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "ka",
+      "correct": true,
+      "response_time": 1.48
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "",
+      "correct": false,
+      "response_time": 3.25
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false,
+      "response_time": 0.134
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false,
+      "response_time": 0.13
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "",
+      "correct": false,
+      "response_time": 0.125
+    }
+  ],
+  [
+    {
+      "study_data": {
+        "started_at": "2026-09-01 13:38:19 -0700",
+        "ended_at": "2026-09-01 13:38:23 -0700",
+        "duration": 3.915,
+        "syllabary": "hiragana",
+        "groups": "#<Set: {\"gojuon\"}>"
+      }
+    },
+    {
+      "character": "か",
+      "correct_answer": "ka",
+      "answer": "",
+      "correct": false,
+      "response_time": 1.139
+    },
+    {
+      "character": "き",
+      "correct_answer": "ki",
+      "answer": "",
+      "correct": false,
+      "response_time": 2.373
+    },
+    {
+      "character": "く",
+      "correct_answer": "ku",
+      "answer": "",
+      "correct": false,
+      "response_time": 0.132
+    },
+    {
+      "character": "け",
+      "correct_answer": "ke",
+      "answer": "",
+      "correct": false,
+      "response_time": 0.129
+    },
+    {
+      "character": "こ",
+      "correct_answer": "ko",
+      "answer": "",
+      "correct": false,
+      "response_time": 0.133
+    }
+  ],
+  {
+    "study_data": {
+      "started_at": "2026-09-01 13:44:01 -0700",
+      "ended_at": "2026-09-01 13:44:02 -0700",
+      "duration": 0.823,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.181
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.162
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.165
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.153
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.15
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-01 13:46:44 -0700",
+      "ended_at": "2026-09-01 13:46:46 -0700",
+      "duration": 1.372,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.695
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.18
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.164
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.164
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.156
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-01 13:48:53 -0700",
+      "ended_at": "2026-09-01 13:48:54 -0700",
+      "duration": 1.172,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.578
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.168
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.142
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.125
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.15
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-01 13:51:15 -0700",
+      "ended_at": "2026-09-01 13:51:24 -0700",
+      "duration": 8.275,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "",
+        "correct": false,
+        "response_time": 3.464
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "",
+        "correct": false,
+        "response_time": 1.347
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "",
+        "correct": false,
+        "response_time": 2.084
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.958
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.391
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-01 13:51:57 -0700",
+      "ended_at": "2026-09-01 13:51:58 -0700",
+      "duration": 1.133,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.307
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.194
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.18
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.167
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.274
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-01 13:59:33 -0700",
+      "ended_at": "2026-09-01 13:59:34 -0700",
+      "duration": 0.87,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.189
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.176
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.164
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.155
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.175
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-01 16:57:16 -0700",
+      "ended_at": "2026-09-01 16:57:22 -0700",
+      "duration": 6.701,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "ka",
+        "correct": true,
+        "response_time": 2.163
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "ki",
+        "correct": true,
+        "response_time": 1.447
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "ku",
+        "correct": true,
+        "response_time": 1.193
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "ke",
+        "correct": true,
+        "response_time": 0.865
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "ko",
+        "correct": true,
+        "response_time": 1.016
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-01 16:57:30 -0700",
+      "ended_at": "2026-09-01 16:57:38 -0700",
+      "duration": 8.028,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "ka",
+        "correct": true,
+        "response_time": 3.014
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "ki",
+        "correct": true,
+        "response_time": 1.545
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "ke",
+        "correct": false,
+        "response_time": 0.716
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "kp",
+        "correct": false,
+        "response_time": 1.448
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "ko",
+        "correct": true,
+        "response_time": 1.293
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-01 16:58:57 -0700",
+      "ended_at": "2026-09-01 16:59:01 -0700",
+      "duration": 4.222,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "ka",
+        "correct": true,
+        "response_time": 1.753
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "ka",
+        "correct": false,
+        "response_time": 0.456
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "ka",
+        "correct": false,
+        "response_time": 0.732
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "ak",
+        "correct": false,
+        "response_time": 0.637
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "aka",
+        "correct": false,
+        "response_time": 0.631
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-01 16:59:06 -0700",
+      "ended_at": "2026-09-01 16:59:09 -0700",
+      "duration": 2.968,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "",
+        "correct": false,
+        "response_time": 2.304
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.165
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.154
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.164
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.169
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-02 11:53:03 -0700",
+      "ended_at": "2026-09-02 11:53:09 -0700",
+      "duration": 5.96,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "ka",
+        "correct": true,
+        "response_time": 1.409
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "ki",
+        "correct": true,
+        "response_time": 1.464
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "ku",
+        "correct": true,
+        "response_time": 1.015
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "ke",
+        "correct": true,
+        "response_time": 0.908
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "",
+        "correct": false,
+        "response_time": 1.146
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-02 11:55:12 -0700",
+      "ended_at": "2026-09-02 11:55:18 -0700",
+      "duration": 5.844,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "ka",
+        "correct": true,
+        "response_time": 1.495
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "ku",
+        "correct": false,
+        "response_time": 1.358
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "ke",
+        "correct": false,
+        "response_time": 0.926
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "ke",
+        "correct": true,
+        "response_time": 0.896
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "ko",
+        "correct": true,
+        "response_time": 1.158
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-02 12:09:54 -0700",
+      "ended_at": "2026-09-02 12:10:00 -0700",
+      "duration": 6.17,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "ka",
+        "correct": true,
+        "response_time": 2.046
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "ki",
+        "correct": true,
+        "response_time": 1.192
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "ku",
+        "correct": true,
+        "response_time": 1.071
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "ko",
+        "correct": false,
+        "response_time": 0.943
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "ko",
+        "correct": true,
+        "response_time": 0.905
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-02 12:10:35 -0700",
+      "ended_at": "2026-09-02 12:10:38 -0700",
+      "duration": 2.841,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "ka",
+        "correct": true,
+        "response_time": 1.151
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "ki",
+        "correct": true,
+        "response_time": 1.21
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.202
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.128
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.137
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-02 12:11:00 -0700",
+      "ended_at": "2026-09-02 12:11:02 -0700",
+      "duration": 2.119,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "ka",
+        "correct": true,
+        "response_time": 1.034
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.612
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.171
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.157
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.137
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-02 12:15:55 -0700",
+      "ended_at": "2026-09-02 12:16:01 -0700",
+      "duration": 5.48,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "ka",
+        "correct": true,
+        "response_time": 1.778
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "ki",
+        "correct": true,
+        "response_time": 0.982
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "ku",
+        "correct": true,
+        "response_time": 1.014
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "ke",
+        "correct": true,
+        "response_time": 0.813
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "ko",
+        "correct": true,
+        "response_time": 0.881
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-02 12:30:48 -0700",
+      "ended_at": "2026-09-02 12:30:49 -0700",
+      "duration": 1.213,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.603
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.158
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.142
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.153
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.145
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-02 12:30:54 -0700",
+      "ended_at": "2026-09-02 12:30:59 -0700",
+      "duration": 5.352,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "ka",
+        "correct": true,
+        "response_time": 1.59
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "ki",
+        "correct": true,
+        "response_time": 1.0
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "ku",
+        "correct": true,
+        "response_time": 1.084
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "ke",
+        "correct": true,
+        "response_time": 0.983
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "ko",
+        "correct": true,
+        "response_time": 0.683
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-02 12:31:57 -0700",
+      "ended_at": "2026-09-02 12:32:02 -0700",
+      "duration": 4.715,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "ka",
+        "correct": true,
+        "response_time": 1.233
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "ki",
+        "correct": true,
+        "response_time": 1.158
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "ku",
+        "correct": true,
+        "response_time": 0.962
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "ke",
+        "correct": true,
+        "response_time": 0.661
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "ko",
+        "correct": true,
+        "response_time": 0.69
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-02 12:32:14 -0700",
+      "ended_at": "2026-09-02 12:32:17 -0700",
+      "duration": 2.755,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "ka",
+        "correct": true,
+        "response_time": 0.861
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "ki",
+        "correct": true,
+        "response_time": 1.41
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.176
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.16
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.14
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-02 12:32:21 -0700",
+      "ended_at": "2026-09-02 12:32:25 -0700",
+      "duration": 4.535,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "ka",
+        "correct": true,
+        "response_time": 1.25
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "ki",
+        "correct": true,
+        "response_time": 0.979
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "ku",
+        "correct": true,
+        "response_time": 0.953
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "ke",
+        "correct": true,
+        "response_time": 0.747
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "ko",
+        "correct": true,
+        "response_time": 0.597
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-02 12:41:45 -0700",
+      "ended_at": "2026-09-02 12:41:48 -0700",
+      "duration": 3.6,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "ka",
+        "correct": true,
+        "response_time": 1.735
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "ki",
+        "correct": true,
+        "response_time": 1.23
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.317
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.153
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.152
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-02 12:42:08 -0700",
+      "ended_at": "2026-09-02 12:42:10 -0700",
+      "duration": 2.665,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "ka",
+        "correct": true,
+        "response_time": 1.265
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "ki",
+        "correct": true,
+        "response_time": 0.885
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.196
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.14
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.167
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-02 12:43:02 -0700",
+      "ended_at": "2026-09-02 12:43:07 -0700",
+      "duration": 4.558,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "ka",
+        "correct": true,
+        "response_time": 2.122
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "ki",
+        "correct": true,
+        "response_time": 1.93
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.172
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.173
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.144
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-02 12:43:38 -0700",
+      "ended_at": "2026-09-02 12:43:41 -0700",
+      "duration": 3.188,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "ka",
+        "correct": true,
+        "response_time": 1.12
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "ki",
+        "correct": true,
+        "response_time": 0.83
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "ku",
+        "correct": true,
+        "response_time": 0.841
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.223
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.161
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-02 12:44:29 -0700",
+      "ended_at": "2026-09-02 12:44:32 -0700",
+      "duration": 3.013,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "ka",
+        "correct": true,
+        "response_time": 1.257
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "ki",
+        "correct": true,
+        "response_time": 1.13
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.266
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.169
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.175
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-02 12:44:57 -0700",
+      "ended_at": "2026-09-02 12:45:00 -0700",
+      "duration": 2.967,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "ka",
+        "correct": true,
+        "response_time": 1.468
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "ki",
+        "correct": true,
+        "response_time": 0.913
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.258
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.157
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.158
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-02 12:47:30 -0700",
+      "ended_at": "2026-09-02 12:47:33 -0700",
+      "duration": 3.294,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "ka",
+        "correct": true,
+        "response_time": 1.201
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "ki",
+        "correct": true,
+        "response_time": 0.945
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.834
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.153
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.146
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-02 12:47:44 -0700",
+      "ended_at": "2026-09-02 12:47:46 -0700",
+      "duration": 2.172,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "ka",
+        "correct": true,
+        "response_time": 0.918
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "ki",
+        "correct": true,
+        "response_time": 0.789
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.148
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.15
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.157
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-02 12:47:56 -0700",
+      "ended_at": "2026-09-02 12:48:02 -0700",
+      "duration": 5.572,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "ka",
+        "correct": true,
+        "response_time": 1.385
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "ki",
+        "correct": true,
+        "response_time": 1.22
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "ku",
+        "correct": true,
+        "response_time": 1.382
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "ke",
+        "correct": true,
+        "response_time": 1.077
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.497
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-02 12:48:06 -0700",
+      "ended_at": "2026-09-02 12:48:07 -0700",
+      "duration": 1.026,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.473
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.165
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.12
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.132
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.126
+      }
+    ]
+  },
+  {
+    "study_data": {
+      "started_at": "2026-09-02 12:48:57 -0700",
+      "ended_at": "2026-09-02 12:49:00 -0700",
+      "duration": 2.612,
+      "syllabary": "hiragana",
+      "groups": "#<Set: {\"gojuon\"}>"
+    },
+    "answers": [
+      {
+        "character": "か",
+        "correct_answer": "ka",
+        "answer": "ka",
+        "correct": true,
+        "response_time": 1.229
+      },
+      {
+        "character": "き",
+        "correct_answer": "ki",
+        "answer": "ki",
+        "correct": true,
+        "response_time": 0.927
+      },
+      {
+        "character": "く",
+        "correct_answer": "ku",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.166
+      },
+      {
+        "character": "け",
+        "correct_answer": "ke",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.146
+      },
+      {
+        "character": "こ",
+        "correct_answer": "ko",
+        "answer": "",
+        "correct": false,
+        "response_time": 0.131
+      }
+    ]
+  }
+]

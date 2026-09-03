@@ -6,43 +6,33 @@ require "lipgloss"
 
 require_relative "kanji"
 
+# Set of screens for menu navigation.
+require_relative "screens/main_menu"
+require_relative "screens/kana_menu"
+require_relative "screens/Kana/hiragana"
+require_relative "screens/Kana/katakana"
+require_relative "screens/Kana/study"
+require_relative "screens/Kana/result"
+require_relative "screens/kanji"
+
 class App
   include Bubbletea::Model
 
-  WIDTH = 44
+  WIDTH = 60
 
   def initialize
-    @index = 0
-    @revealed = false
-    @kanjis = load_kanjis
+    @width = 0
+    @height = 0
+    @screen = :main_menu
 
-    @title_style = Lipgloss::Style.new
-      .bold(true)
-      .align(:left)
-
-    @subtitle_style = Lipgloss::Style.new
-      .faint(true)
-
-    @kanji_style = Lipgloss::Style.new
-      .bold(true)
-      .align(:center)
-      .width(WIDTH)
-
-    @jlpt_style = Lipgloss::Style.new
-      .faint(true)
-      .align(:center)
-      .width(WIDTH)
-
-    @label_style = Lipgloss::Style.new
-      .bold(true)
-
-    @help_style = Lipgloss::Style.new
-      .faint(true)
-
-    @box_style = Lipgloss::Style.new
-      .border(:rounded)
-      .padding(1, 2)
-      .width(WIDTH)
+    @screens = {
+      main_menu: Screens::MainMenu.new,
+      kana_menu: Screens::KanaMenu.new,
+      hiragana: Screens::Kana::Hiragana.new,
+      katakana: Screens::Kana::Katakana.new,
+      kana_study: Screens::Kana::Study.new,
+      kana_results: Screens::Kana::Result.new,
+    }
   end
 
   def init
@@ -51,105 +41,72 @@ class App
 
   def update(message)
     case message
-    when Bubbletea::KeyMessage
-      if message.space?
-        @revealed = true
-        return [self, nil]
-      end
+    when Bubbletea::WindowSizeMessage
+      @width = message.width
+      @height = message.height
 
-      case message.to_s
-      when "n", "right"
-        next_kanji
-        [self, nil]
+      current_screen.resize(
+        width: @width,
+        height: @height
+      )
 
-      when "q", "ctrl+c", "esc"
+      [self, nil]
+
+    else
+      # Recordar que current_screen regresa un array
+      action, command = current_screen.update(message)
+
+      case action
+      when :quit
         [self, Bubbletea.quit]
 
+      when Symbol
+        @screen = action
+
+        current_screen.resize(
+          width: @width,
+          height: @height
+        )
+
+        [self, command]
+
+      when Hash
+        @screen = action[:screen]
+
+        enter_command = current_screen.enter(
+          action[:params] || {}
+        )
+
+        current_screen.resize(
+          width: @width,
+          height: @height
+        )
+
+        debug("action: #{@screen}")
+        debug("command: #{enter_command}")
+
+        [self, enter_command || command]
+
       else
-        [self, nil]
+        [self, command]
       end
-    else
-      [self, nil]
     end
   end
 
   def view
-    kanji = @kanjis[@index]
-
-    header = [
-      @title_style.render("NAMI"),
-      @subtitle_style.render("Japanese Kanji Trainer")
-    ].join("\n")
-
-    kanji_section = [
-      "",
-      @kanji_style.render(kanji.character),
-      "",
-      @jlpt_style.render(kanji.jlpt || "Unknown")
-    ].join("\n")
-
-    meaning = @revealed ? kanji.meaning : "???"
-
-    onyomi =
-      if @revealed
-        kanji.onyomi.any? ? kanji.onyomi.join(", ") : "—"
-      else
-        "???"
-      end
-
-    kunyomi =
-      if @revealed
-        kanji.kunyomi.any? ? kanji.kunyomi.join(", ") : "—"
-      else
-        "???"
-      end
-
-    info = [
-      @label_style.render("Meaning"),
-      meaning,
-      "",
-      @label_style.render("Onyomi"),
-      onyomi,
-      "",
-      @label_style.render("Kunyomi"),
-      kunyomi
-    ].join("\n")
-
-    help = @help_style.render(
-      "[space] Reveal   [n] Next   [q] Quit"
-    )
-
-    content = [
-      header,
-      "",
-      kanji_section,
-      "",
-      info,
-      "",
-      help
-    ].join("\n")
-
-    @box_style.render(content)
+    current_screen.render
   end
 
   private
-
-  def next_kanji
-    @index = (@index + 1) % @kanjis.size
-    @revealed = false
+  
+  def current_screen
+    @screens[@screen]
   end
 
-  def load_kanjis
-    path = File.expand_path("../data/kanji.yml", __dir__)
-
-    YAML.load_file(path).map do |data|
-      Kanji.new(
-        character: data["character"],
-        meaning: data["meaning"],
-        onyomi: data["onyomi"] || [],
-        kunyomi: data["kunyomi"] || [],
-        jlpt: data["jlpt"]
-      )
+  def debug(message)
+    File.open("/tmp/nami.log", "a") do |file|
+      file.puts "[#{Time.now}] #{message}"
     end
   end
+
 end
